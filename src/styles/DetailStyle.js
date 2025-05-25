@@ -40,8 +40,9 @@ export const Description = styled.p`
 `;
 
 export const BackButton = styled.button`
-  margin-top: 20px;
+  margin: 10px;
   padding: 10px 30px;
+  width: 120px;
   background-color: #ffffff;
   border: 1px solid rgb(255, 0, 0);
   border-radius: 10px;
@@ -52,6 +53,24 @@ export const BackButton = styled.button`
   &:hover {
     background-color: rgb(255, 0, 0);
     border: 1px solid rgb(255, 0, 0);
+    color : #ffffff;
+  }
+`;
+
+export const ActionButton = styled.button`
+  margin: 10px;
+  padding: 10px 30px;
+  width: 120px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  color: #000000;
+  font-size: 15px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #000000;
+    border: 1px solid #000000;
     color : #ffffff;
   }
 `;
